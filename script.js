@@ -61,9 +61,9 @@ ScrollReveal({
 });
 
 ScrollReveal().reveal('.homeleftsec, .head', { origin: 'top' });
-ScrollReveal().reveal('.homerightsec, .proj, .boxes', { origin: 'bottom' });
+ScrollReveal().reveal('.homerightsec, .proj, .boxes, #contact', { origin: 'bottom' });
 ScrollReveal().reveal('.aboutleftsec, .head2', { origin: 'left' });
-ScrollReveal().reveal('.head3', { origin: 'right' });
+ScrollReveal().reveal('.head3, .aboutrightsec', { origin: 'right' });
  
 
 
