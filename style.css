@@ -524,17 +524,17 @@ input:focus, textarea:focus {
 
 
     section{
-        min-height: 70vh;
+        min-height: 90vh;
         padding: 5rem 3% 2rem;
     }
 
     .homerightsec img{
-        width: 60vw;
+        width: 70vw;
         margin-top: 10px;
     }
 
     .aboutleftsec img{
-        width: 60vw;
+        width: 70vw;
     }
 
     #about p {
@@ -571,13 +571,13 @@ input:focus, textarea:focus {
     }   
     
     .box img{
-        width: 40px;
+        width: 45px;
         margin: 5px;
     }
     
     .box {
-        height: 60px;
-        width: 60px;
+        height: 70px;
+        width: 70px;
         border-radius: 5px;
         padding: 10px 10px;
     }
