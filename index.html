@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sakshi - Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet"/>
+  </head>
+  <body> 
+
+    <!-- Navigation Bar  -->
+    <header>
+      <nav class="navbar">
+        <div class="logo">Sakshi's Portfolio</div>
+
+        <i class='bx bx-menu' id="hamburger"></i>
+
+        <div class="navlinks">
+          <ul>
+            <li><a href="#home" class="active">Home</a></li>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#technologies">Technologies</a></li>
+            <li><a href="#project">Project</a></li>
+            <li><a href="#contact">Contact me</a></li>
+        </ul>
+        </div>
+      </nav>
+    </header>
+
+
+    <!-- Home Section  -->
+    <section id="home">
+           
+      <div class="homeleftsec">
+        <p class="head1">Hi, I am </p>
+
+        <p class="head2"><span>SAKSHI BORKAR</span></p>
+
+        <span id="element"></span>
+        
+        <p class="head3">'Building intuitive interfaces with a touch of creativity.'</p>
+
+        <div class="button">
+          <button><a href="">Download Resume </a></button>
+        </div>
+
+      </div>   
+      
+      <div class="homerightsec">
+        <img src="Images/image1.png" alt="Image">
+      </div>
+    </section>
+
+<hr>
+
+    <!-- About Section  -->
+    <section id="about">
+      <div class="aboutleftsec">
+        <img src="Images/image2.png" alt="Image">
+      </div>
+
+      <div class="aboutrightsec">
+        <div class="head">About Me</div>
+        <p>
+      
+          I’m a frontend developer with a solid understanding of HTML, CSS, and JavaScript and a strong desire to expand my skills into React.js and modern web technologies.
+
+          Recently, I developed an interest in UI/UX design after attending a workshop, and I’m eager to learn more. With a background in art, I want to explore how design and functionality come together to create aesthetic, user-friendly digital experiences.
+          
+          Alongside frontend development, I’m also learning Data Structures & Algorithms (DSA) in Java and have experience with SQL, strengthening my problem-solving abilities.
+
+    </p>
+      </div>
+    </section>
+
+
+    <hr>
+
+    <!-- Technologies Section  -->
+    <section id="technologies">
+      <div class="head">Technologies</div>
+
+      <div class="boxes">
+            <div class="box">
+                <img src="Images/html.png" alt="HTML">
+            </div>
+
+            <div class="box">
+                <img src="Images/css.png" alt="CSS">
+            </div>
+
+            <div class="box">
+                <img src="Images/js.png" alt="JavaScript">
+            </div>
+
+            <div class="box">
+              <img src="Images/react.png" alt="Reactjs">
+          </div>
+
+            <div class="box">
+                <img src="Images/figma.png" alt="Figma">
+            </div>
+
+            <div class="box">
+                <img src="Images/c.png" alt="C Programming">
+            </div>
+
+            <div class="box">
+                <img src="Images/java.png" alt="Java">
+            </div>
+
+            <div class="box">
+              <img src="Images/sql.png" alt="SQL">
+            </div>
+
+            <div class="box">
+                <img src="Images/git.png" alt="Git">
+            </div>
+
+            <div class="box">
+              <img src="Images/github.png" alt="Github">
+          </div>
+          </div>           
+        </div>
+    </section>
+
+
+    <hr>
+
+    <!-- Project Section  -->
+    <section id="project">
+      <div class="head">Projects</div>
+
+      <div class="proj">
+        <div class="one">
+          <img src="Images/P1.png" alt="Project 1">
+  
+          <div class="heading">News Wave</div>
+          <p>Build a responsive news app that delivers real-time news using a News API. Designed for a seamless and user-friendly reading experience across all devices.</p>
+          <div class="tech">
+            <span>HTML</span>
+            <span>CSS</span>
+            <span>Javascript</span>
+            <span>Rest API</span>
+          </div>
+        </div>
+  
+  
+        <div class="one">
+          <img src="Images/P3.png" alt="Project 1">
+  
+          <div class="heading">Spotify Clone</div>
+          <p>Designed and developed a responsive UI clone of Spotify with a sleek and modern interface, replicating its layout and user experience while ensuring smooth navigation across all devices.</p>
+          <div class="tech">
+            <span>HTML</span>
+            <span>CSS</span>
+            <span>Javascript</span>
+          </div>
+        </div>
+  
+  
+        <div class="one">
+          <img src="Images/P3.png" alt="Project 1">
+  
+          <div class="heading">Portfolio Website</div>
+          <p>Built a fully responsive personal portfolio website with an intuitive user interface to showcase my skills, experience, and projects effectively, ensuring seamless accessibility across all devices.</p>
+          <div class="tech">
+            <span>HTML</span>
+            <span>CSS</span>
+            <span>Javascript</span>
+          </div>
+        </div>
+      </div>
+      
+
+
+    </section>
+
+<hr>
+
+
+    <section id="contactme">
+      <div class="head">Contact Me</div>
+
+      <div id="contact">
+        <p>
+          If you have any questions or concerns, please contact me.
+      </p>
+
+      <form id="contactForm">
+          <label for="name">Your Name:</label>
+          <input type="text" id="name" name="name" required>
+
+          <label for="email">Your Email:</label>
+          <input type="email" id="email" name="email" required>
+
+          <label for="message">Your Message:</label>
+          <textarea id="message" name="message" rows="4" required></textarea>
+
+          <button type="submit" class="send-btn">
+              Send Message <span>📩</span>
+          </button>
+      </form>
+
+      <p id="successMessage" class="hidden">✅ Your message has been sent!</p>
+      </div>
+
+    </section>
+
+    <hr>
+
+    <footer>
+      <div class="copy">
+        &copy; Personal Portfolio by <span class="color">Sakshi</span>  
+      </div>
+  
+      <a href="#home">
+          <img class="stick" src="Images/up.png" alt="icon">
+      </a>
+      
+  </footer> 
+
+
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+
+    <script>
+      var typed = new Typed('#element', {
+      strings: ['Frontend Developer', 'Software Engineer', '&amp; UI/UX Enthusiast'],
+      typeSpeed: 50,
+      loop: true, // Enables continuous looping
+      backSpeed: 50, // Speed of erasing text
+      backDelay: 1000, // Delay before erasing
+  });
+    </script>
+    </script>
+  </body>
+
+</html>
